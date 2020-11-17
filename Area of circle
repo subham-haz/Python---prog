@@ -1,0 +1,6 @@
+def ar_ea(r): 
+ A=float((22/7)*(r**2)) 
+ return A
+n=int(input("enter the radius of circle :")) 
+area_ofcircle= str(ar_ea(n)) 
+print ("AREA OF CIRCLE IS:" + area_ofcircle) 
