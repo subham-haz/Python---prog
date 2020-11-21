@@ -1,11 +1,10 @@
-no_ofterms=int(input("how many terms?")) 
-N1=0
-N2=1
-C=0
+n=int(input("enter the number of terms?")) 
+a=0
+b=1
 print("FIBONACCI SEQUENCE:") 
-while C<no_ofterms:
-    print(N1) 
-    N=N1+N2
-    N1=N2
-    N2=N
-    C=C+1
+for i in range(0,n):
+    print(a) 
+    c=a+b
+    a=b
+    b=c
+    
